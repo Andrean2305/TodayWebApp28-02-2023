@@ -1,0 +1,105 @@
+body {
+    background-color: #503b3b;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+  
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+}
+  
+button {
+    background-color: #54c2d1;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 45%;
+}
+  
+button:hover {
+    background-color: #46aeb0;
+    cursor: pointer;
+}
+
+.neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(190, 227, 215),
+        0 0 82px rgb(136, 200, 178),
+        0 0 92px rgb(102, 194, 163),
+        0 0 102px rgb(47, 114, 92),
+        0 0 151px rgb(30, 111, 84);
+  }
+  
+  /* Additional styling */
+    
+body {
+font-size: 18px;
+font-family: "Vibur", sans-serif;
+background-color: #010a01;
+}  
+
+h1, h2 {
+text-align: center;
+text-transform: uppercase;
+font-weight: 400;
+}
+
+h1 {
+    font-size: 4.2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+.container {
+margin-top: 20vh;
+}
+
+* {
+box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+float: left;
+width: 33.33%;
+padding: 10px;
+height: 300px; /* Should be removed. Only for demonstration */
+border: 1px solid ;
+border-color: aliceblue;
+}
+
+.row:before {
+    content: "";
+    display: table;
+    clear: both;
+    padding-top: 2%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.normal p {
+    text-align: left;
+    padding-left: 5%;
+}
