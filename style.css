@@ -2,6 +2,7 @@ body {
     background-color: #503b3b;
     color: #fff;
     font-family: Arial, sans-serif;
+
 }
   
 h1 {
@@ -103,3 +104,31 @@ clear: both;
     text-align: left;
     padding-left: 5%;
 }
+
+.p_normal {
+    text-align: center;
+    font-size: 1.2rem;
+    font-size: 50px;
+}
+
+img{
+    margin-left: 3.5%;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+  
+  .fade-in.active {
+    opacity: 1;
+  }
+  
+  
+  
